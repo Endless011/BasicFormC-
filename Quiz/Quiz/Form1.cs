@@ -107,6 +107,8 @@ namespace Quiz
             lblFValue.Text = False.ToString();
             richTextBox1.Text = "Welcome, Please press Start Button.";
             btnstart.Visible = true;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
