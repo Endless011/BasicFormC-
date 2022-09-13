@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -99,6 +99,7 @@ namespace Quiz
             btnB.Enabled = false;
             btnC.Enabled = false;
             btnD.Enabled = false;
+            btnNext.Enabled = false;
             questionNo = 0;
             True = 0;
             False = 0;
@@ -109,6 +110,7 @@ namespace Quiz
             btnstart.Visible = true;
             pictureBox1.Visible = false;
             pictureBox2.Visible = false;
+            btnNext.Text = "Next";
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
